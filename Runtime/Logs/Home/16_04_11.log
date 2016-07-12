@@ -1,0 +1,70 @@
+[ 2016-04-11T16:18:38+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-04-11T16:22:01+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+
+[ 2016-04-11T16:32:16+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-04-11T16:34:28+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+
+[ 2016-04-11T16:35:38+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+
+[ 2016-04-11T16:36:11+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+
+[ 2016-04-11T16:36:18+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+
+[ 2016-04-11T16:38:29+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2016-04-11T16:42:19+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+
+[ 2016-04-11T16:42:31+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-04-11T16:43:43+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+
+[ 2016-04-11T16:44:58+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+
+[ 2016-04-11T16:45:13+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+
+[ 2016-04-11T16:45:54+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+

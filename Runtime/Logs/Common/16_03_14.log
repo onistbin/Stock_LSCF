@@ -1,0 +1,18 @@
+[ 2016-03-14T14:23:49+08:00 ] 127.0.0.1 /php/index.php?m=Index&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-14T14:24:00+08:00 ] 127.0.0.1 /php/index.php?m=View&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+ERR: 无法加载模块:View
+
+[ 2016-03-14T14:49:48+08:00 ] 127.0.0.1 /php/index.php?m=Game&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Game
+

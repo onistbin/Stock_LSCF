@@ -1,0 +1,18 @@
+[ 2016-05-09T13:47:32+08:00 ] 127.0.0.1 /Stock/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+ERR: 无法加载模块:Login
+
+[ 2016-05-09T13:47:53+08:00 ] 127.0.0.1 /Stock/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+ERR: 无法加载模块:Login
+
+[ 2016-05-09T13:48:24+08:00 ] 127.0.0.1 /Stock/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+ERR: 无法加载模块:Login
+

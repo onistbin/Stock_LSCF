@@ -1,0 +1,28 @@
+[ 2016-05-12T07:27:26+08:00 ] 192.168.23.7 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=160
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.057738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.057820s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '160' AND `messageId` < 163  )  [ RunTime:0.0048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-05-12T07:27:28+08:00 ] 192.168.23.7 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=162
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '162' AND `messageId` < 165  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+

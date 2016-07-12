@@ -1,0 +1,510 @@
+[ 2016-05-31T18:38:13+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-05-31T18:38:16+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=minData&&url=http://img1.money.126.net/data/hs/time/today/0000001.json&&count=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2016-05-31T18:38:50+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '2' AND `messageId` < 5  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-05-31T18:39:25+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '4' AND `messageId` < 7  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-05-31T18:43:21+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-05-31T18:43:24+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=minData&&url=http://img1.money.126.net/data/hs/time/today/0000001.json&&count=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-05-31T18:43:57+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '2' AND `messageId` < 5  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-05-31T18:44:34+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '4' AND `messageId` < 7  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-05-31T18:45:10+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '6' AND `messageId` < 9  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-05-31T18:45:46+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '8' AND `messageId` < 11  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-05-31T18:46:22+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '10' AND `messageId` < 13  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-05-31T18:46:58+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '12' AND `messageId` < 15  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-05-31T18:47:34+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '14' AND `messageId` < 17  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-05-31T18:48:10+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '16' AND `messageId` < 19  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-05-31T18:48:46+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '18' AND `messageId` < 21  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-05-31T18:49:22+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '20' AND `messageId` < 23  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-05-31T18:49:58+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '22' AND `messageId` < 25  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-05-31T18:50:34+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '24' AND `messageId` < 27  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-05-31T18:51:10+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '26' AND `messageId` < 29  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-05-31T18:51:46+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '28' AND `messageId` < 31  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-05-31T18:52:22+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '30' AND `messageId` < 33  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-05-31T18:52:58+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '32' AND `messageId` < 35  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-05-31T18:53:34+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '34' AND `messageId` < 37  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-05-31T18:54:10+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '36' AND `messageId` < 39  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-05-31T18:54:46+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '38' AND `messageId` < 41  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-05-31T18:55:22+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '40' AND `messageId` < 43  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-05-31T18:55:58+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '42' AND `messageId` < 45  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-05-31T18:56:33+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '44' AND `messageId` < 47  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-05-31T18:57:10+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '46' AND `messageId` < 49  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-05-31T18:57:46+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=48
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '48' AND `messageId` < 51  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-05-31T18:58:22+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '50' AND `messageId` < 53  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-05-31T18:58:58+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '52' AND `messageId` < 55  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-05-31T18:59:34+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '54' AND `messageId` < 57  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-05-31T19:00:10+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '56' AND `messageId` < 59  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-05-31T19:00:46+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=58
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '58' AND `messageId` < 61  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-05-31T19:40:38+08:00 ] 172.33.16.18 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '62' AND `messageId` < 65  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+

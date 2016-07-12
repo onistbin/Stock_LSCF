@@ -1,0 +1,5 @@
+[ 2016-05-27T11:57:02+08:00 ] 127.0.0.1 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+

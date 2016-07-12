@@ -1,0 +1,230 @@
+[ 2016-07-08T17:12:23+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-07-08T17:12:24+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '0' AND `messageId` < 3  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-07-08T17:12:26+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=minData&&url=http://img1.money.126.net/data/hs/time/today/0000001.json&&count=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-07-08T17:12:30+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '2' AND `messageId` < 5  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-07-08T17:12:36+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '4' AND `messageId` < 7  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-07-08T17:12:36+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=minData&&url=http://img1.money.126.net/data/hs/kline/day/history/2016/0000001.json&&count=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-07-08T17:12:36+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=minData&&url=http://img1.money.126.net/data/hs/kline/day/history/2016/0000001.json&&count=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-07-08T17:12:36+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=minData&&url=http://img1.money.126.net/data/hs/kline/day/history/2016/0000001.json&&count=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-07-08T17:12:36+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=minData&&url=http://img1.money.126.net/data/hs/kline/day/history/2016/0000001.json&&count=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-07-08T17:12:39+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=minData&&url=http://img1.money.126.net/data/hs/kline/week/history/2015/0000001.json&&count=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-07-08T17:12:39+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=minData&&url=http://img1.money.126.net/data/hs/kline/week/history/2015/0000001.json&&count=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-07-08T17:12:39+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=minData&&url=http://img1.money.126.net/data/hs/kline/week/history/2015/0000001.json&&count=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-07-08T17:12:39+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=minData&&url=http://img1.money.126.net/data/hs/kline/week/history/2015/0000001.json&&count=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-07-08T17:12:42+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '6' AND `messageId` < 9  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-07-08T17:12:48+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '8' AND `messageId` < 11  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-07-08T17:12:54+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '10' AND `messageId` < 13  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-07-08T17:13:00+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '12' AND `messageId` < 15  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-07-08T17:13:06+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '14' AND `messageId` < 17  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-07-08T17:13:12+08:00 ] 10.18.61.164 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `barrage_msg` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `barrage_msg` WHERE ( `messageId` > '16' AND `messageId` < 19  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+

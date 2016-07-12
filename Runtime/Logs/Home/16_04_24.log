@@ -1,0 +1,381 @@
+[ 2016-04-24T13:45:09+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005930s ]
+
+[ 2016-04-24T13:45:09+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '0' AND `messageId` < 3  )  [ RunTime:0.0033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2016-04-24T13:45:14+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '2' AND `messageId` < 5  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-04-24T13:45:15+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '4' AND `messageId` < 7  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-04-24T13:45:19+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '6' AND `messageId` < 9  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-04-24T13:45:31+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '14' AND `messageId` < 17  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-04-24T13:45:34+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '16' AND `messageId` < 19  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-04-24T13:45:40+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '20' AND `messageId` < 23  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-04-24T13:45:43+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '22' AND `messageId` < 25  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-04-24T13:45:46+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '24' AND `messageId` < 27  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-04-24T13:45:57+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '30' AND `messageId` < 33  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-04-24T13:45:58+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '32' AND `messageId` < 35  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-04-24T13:46:01+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '34' AND `messageId` < 37  )  [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-04-24T13:46:07+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '36' AND `messageId` < 39  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-04-24T13:46:07+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '38' AND `messageId` < 41  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-04-24T13:46:10+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '40' AND `messageId` < 43  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-04-24T13:46:13+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '42' AND `messageId` < 45  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-04-24T13:46:46+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '62' AND `messageId` < 65  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-04-24T13:46:46+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=64
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '64' AND `messageId` < 67  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-04-24T13:46:48+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '66' AND `messageId` < 69  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-04-24T13:46:54+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '68' AND `messageId` < 71  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-04-24T13:46:55+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '70' AND `messageId` < 73  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-04-24T13:46:58+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '72' AND `messageId` < 75  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-04-24T13:47:01+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '74' AND `messageId` < 77  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-04-24T18:36:59+08:00 ] 192.168.253.2 /Stock/index.php?m=Home&c=Index&a=getMessage&startId=180
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/study/PHP/devspace/Stock/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `barrage_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `barrage_message` WHERE ( `messageId` > '180' AND `messageId` < 183  )  [ RunTime:0.0036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
